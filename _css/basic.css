@@ -18,7 +18,7 @@ nav li {
 }
 
 nav li a {
-  color: #004de6;
+  color: #9458B2;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -30,7 +30,7 @@ nav li a {
   padding-bottom: 5px;
   margin-left: 7px;
   margin-right: 7px;
-  border-bottom: 2px solid #4c9cf1;
+  border-bottom: 1.5px solid #9458B2;
   transition: color 0.3s ease;
 }
 
@@ -42,13 +42,24 @@ header {
   align-items: center;
 }
 
-header .blog-name {
+/*header .blog-name {
   width: 35%;
   display: inline-block;
   text-align: left;
   font-size: 18px;
   font-family: "Lucida Console", Monaco, monospace;
   padding-top: 10px;
+}*/
+
+header .blog-name {
+  width: 35%;
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Georgia", serif; /* Change to a classic font like Georgia */
+  padding-top: 10px;
+  font-weight: bold;
+  color: #000;
 }
 
 header .blog-name a {
@@ -187,4 +198,15 @@ td {
 
 table tbody tr td {
   border: 1px solid lightgray;
+}
+
+/* Change the color of H1 headers */
+h1 {
+  color: #CB3D33; /* Change to the desired color */
+}
+
+/* Add a new rule for the email link */
+a.email-link {
+  color: #379825; /* Change to the desired color */
+  text-decoration: none; /* Optional: Remove underline */
 }
