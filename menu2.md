@@ -14,8 +14,10 @@ tags = ["syntax", "code", "image"]
 
 Final Project for the course _"Research Module in Financial Economics"_
 
+__Project Description:__ Measuring the impact of capital requirements with Basel Framework on the loan supply to the nonfinancial firms. Obtaining a firm-level data, diff-in-diff design might be appropriate.
+
 ## Analyzing SEC 10-K Filings: A FinBERT Approach
 
 Final Project for the course _"OSE Scientific Computing for Economists"_
 
-__Project Description:__ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac consectetur tortor. Nullam eu lorem a libero tincidunt ultricies. Sed vehicula aliquet turpis, sit amet mattis nisl tempus ut. Suspendisse potenti. Integer vel lacinia est. Vivamus congue felis in risus bibendum, non cursus erat tristique. Nulla facilisi. 
+__Project Description:__ In this study, I employed state-of-the-art NLP techniques to analyze SEC 10-K corporate filings, applying a specialized variant of BERT known as FinBERT. By focusing on the "Management’s Discussion and Analysis" (MD&A) section, I collected and analyzed text data from randomly selected 10-K filings published by U.S. publicly traded companies in 2020 and 2021. In addition, I conducted a comparative analysis of model performance by applying four distinct models, namely, FinBERT, fine-tuned FinBERT, feature extraction models utilizing a vanilla neural network, and a Random Forest Classifier, on the `financial_phrasebank` dataset.

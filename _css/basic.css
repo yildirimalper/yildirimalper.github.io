@@ -31,7 +31,7 @@ nav li a {
   margin-left: 7px;
   margin-right: 7px;
   border-bottom: 1.5px solid #9458B2;
-  transition: color 0.3s ease;
+  *transition: color 0.3s ease;*
 }
 
 header {
@@ -49,6 +49,10 @@ header {
   font-size: 18px;
   font-family: "Lucida Console", Monaco, monospace;
   padding-top: 10px;
+
+  "Georgia", serif; 
+
+
 }*/
 
 header .blog-name {
@@ -56,7 +60,7 @@ header .blog-name {
   display: inline-block;
   text-align: left;
   font-size: 18px;
-  font-family: "Georgia", serif; /* Change to a classic font like Georgia */
+  font-family: "Helvetica", Arial, sans-serif; /* Change to a classic font like Georgia */
   padding-top: 10px;
   font-weight: bold;
   color: #000;
@@ -202,11 +206,43 @@ table tbody tr td {
 
 /* Change the color of H1 headers */
 h1 {
-  color: #CB3D33; /* Change to the desired color */
+  color: #379825; /* Change to the desired color */
 }
 
 /* Add a new rule for the email link */
 a.email-link {
-  color: #379825; /* Change to the desired color */
+  color: #CB3D33; /* Change to the desired color */
   text-decoration: none; /* Optional: Remove underline */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-column {
+  flex: 2; /* Adjust the flex value to allocate more space to text */
+  font-size: 16px; /* Set the desired font size in pixels */
+}
+
+.image-column {
+  flex: 1; /* Adjust the flex value to allocate less space to the image */
+  text-align: center;
+}
+
+/* Adjust the image size as needed */
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  width: 100%; /* Ensure the image takes up the entire width of its column */
+}
+
+body {
+  font-size: 0.85rem; /* 1rem is equivalent to 16px (root font size) */
+}
+
+p {
+  font-size: 0.85rem; /* Example: 16px */
 }
