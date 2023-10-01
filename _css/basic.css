@@ -18,7 +18,7 @@ nav li {
 }
 
 nav li a {
-  color: #9458B2;
+  color: #929084;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -30,7 +30,7 @@ nav li a {
   padding-bottom: 5px;
   margin-left: 7px;
   margin-right: 7px;
-  border-bottom: 1.5px solid #9458B2;
+  border-bottom: 1.5px solid #929084;
   transition: color 0.3s ease;
 }
 
@@ -206,7 +206,7 @@ table tbody tr td {
 
 /* Change the color of H1 headers */
 h1 {
-  color: #379825; /* Change to the desired color */
+  color: #01509F; /* Change to the desired color */
 }
 
 /* Add a new rule for the email link */
