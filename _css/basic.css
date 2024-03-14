@@ -71,10 +71,10 @@ header .blog-name a {
   text-decoration: none;
 }
 
-header li a:hover {
+/*header li a:hover {
   color: black;
   border-bottom: 2px solid black;
-}
+}*/
 
 #menu-icon {
   display: none;
@@ -163,12 +163,13 @@ instead, display a burger menu.
     margin: 0;
   }
   header li a { border-bottom: none; }
-  header li a:hover { border-bottom: none; }
-
+  /*header li a:hover { border-bottom: none; }*/
+  /*
   nav:hover ul {
     display: block;
   }
-
+  */
+  
   #menu-icon {
     display: inline-block;
     margin-right: 10px;
