@@ -83,7 +83,7 @@ header .blog-name {
   display: inline-block;
   text-align: left;
   font-size: 18px;
-  font-family: "Helvetica", Arial, sans-serif; /* Change to a classic font like Georgia */
+  font-family: "Georgia", serif; /* Change to a classic font like Georgia */
   padding-top: 10px;
   font-weight: bold;
   color: #000;
@@ -235,8 +235,12 @@ h1 {
 
 /* Add a new rule for the email link */
 a.email-link {
-  color: #CB3D33; /* Change to the desired color */
+  color: #db0d44; /* Change to the desired color */
   text-decoration: none; /* Optional: Remove underline */
+}
+
+.page-foot p, .page-foot a, .page-foot h1 {
+  font-family: "Georgia", serif;
 }
 
 .content-container {
