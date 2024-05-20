@@ -42,6 +42,29 @@ header {
   align-items: center;
 }
 
+body {
+  font-family: 'Latin Modern Roman', serif;
+}
+
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 /*header .blog-name {
   width: 35%;
   display: inline-block;
@@ -207,7 +230,7 @@ table tbody tr td {
 
 /* Change the color of H1 headers */
 h1 {
-  color: #01509F; /* Change to the desired color */
+  color: #db0d44; /* Change to the desired color */
 }
 
 /* Add a new rule for the email link */
