@@ -274,3 +274,7 @@ body {
 p {
   font-size: 0.85rem; /* Example: 16px */
 }
+
+.item-list li {
+  color: #ca2f47;
+}
