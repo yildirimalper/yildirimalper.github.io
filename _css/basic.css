@@ -230,12 +230,12 @@ table tbody tr td {
 
 /* Change the color of H1 headers */
 h1 {
-  color: #db0d44; /* Change to the desired color */
+  color: #1c3144; /* Change to the desired color */
 }
 
 /* Add a new rule for the email link */
 a.email-link {
-  color: #db0d44; /* Change to the desired color */
+  color: #1c3144; /* Change to the desired color */
   text-decoration: none; /* Optional: Remove underline */
 }
 
@@ -276,5 +276,5 @@ p {
 }
 
 .item-list li {
-  color: #ca2f47;
+  color: #1c3144;
 }
