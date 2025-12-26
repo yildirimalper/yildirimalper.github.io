@@ -132,45 +132,51 @@ header .blog-name a {
   }
 }
 
-#menu-icon { position: relative; z-index: 1000; }
-
-#menu-icon {
-  width: 32px;
-  height: 32px;
-  position: relative;
-  z-index: 3000;   /* above header, but NOT covering the dropdown area */
-}
-
-#menu-icon-btn {
-  width: auto;
-  height: auto;
-  padding: 0;
-}
-
-
 @media (max-width: 700px) {
-  header, nav { position: relative; z-index: 1000; }
+  header, nav { position: relative; }
 
-  nav ul {
-    display: none;
+  /* hamburger button: make the clickable area ONLY the icon size */
+  #menu-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    z-index: 10;
   }
 
-  nav ul.open {
+  /* important: prevent the img itself from intercepting weird touch events */
+  #menu-icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    pointer-events: none;
+  }
+
+  /* dropdown */
+  #site-menu { display: none; }
+
+  #site-menu.open {
     display: block;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
 
-    z-index: 2000;
-    background: white;   /* important: creates a real box */
+    z-index: 20;         /* ABOVE the hamburger button */
+    background: white;   /* creates a real box */
   }
 
-  nav ul.open a {
-    display: block;      /* makes each link a nice tap target */
-    pointer-events: auto;
+  #site-menu a {
+    display: block;
+    padding: 10px 14px;
   }
 }
+
 
 /*
 medium display: nav goes under name
