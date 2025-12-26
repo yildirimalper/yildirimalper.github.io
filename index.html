@@ -72,5 +72,20 @@
     <br>
     Website built with <a href="https://github.com/tlienart/Franklin.jl" style="color: #929084;">Franklin.jl</a> and the <a href="https://julialang.org" style="color: #929084;">Julia Programming Language</a>.
   </div>
+        <script src="/libs/highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
+          <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const icon = document.getElementById("menu-icon");
+            const menu = document.querySelector("nav ul");
+            if (!icon || !menu) return;
+
+          icon.style.cursor = "pointer";
+
+          icon.addEventListener("click", () => {
+            menu.classList.toggle("open");
+          });
+        });
+</script>
 </body>
 </html>
