@@ -103,6 +103,12 @@ header .blog-name a {
   display: none;
 }
 
+/* Mobile: hide menu by default */
+@media (max-width: 700px) {
+  nav ul { display: none; }
+  nav ul.open { display: block; }
+}
+
 @media (max-width: 480px) {
   header {
     padding-left: 6%;

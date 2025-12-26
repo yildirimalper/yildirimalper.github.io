@@ -56,7 +56,22 @@
     
     
         <script src="/libs/highlight/highlight.min.js"></script>
-<script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
+        <script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const icon = document.getElementById("menu-icon");
+            const menu = document.querySelector("nav ul");
+            if (!icon || !menu) return;
+
+          icon.style.cursor = "pointer";
+
+          icon.addEventListener("click", () => {
+            menu.classList.toggle("open");
+          });
+        });
+</script>
+
 
     
   </body>
