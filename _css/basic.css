@@ -132,6 +132,9 @@ header .blog-name a {
   }
 }
 
+#menu-icon { position: relative; z-index: 1000; }
+
+
 /*
 medium display: nav goes under name
 */
