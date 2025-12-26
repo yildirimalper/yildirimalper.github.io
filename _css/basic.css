@@ -134,6 +134,29 @@ header .blog-name a {
 
 #menu-icon { position: relative; z-index: 1000; }
 
+@media (max-width: 700px) {
+  header, nav { position: relative; z-index: 1000; }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    z-index: 2000;
+    background: white;   /* important: creates a real box */
+  }
+
+  nav ul.open a {
+    display: block;      /* makes each link a nice tap target */
+    pointer-events: auto;
+  }
+}
 
 /*
 medium display: nav goes under name
