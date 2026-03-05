@@ -39,15 +39,25 @@ html[data-theme="dark"] {
   }
 }
 
-// ── Navigation links — remove underline, keep theme colour ──────────────────
+// ── Navigation links — red on hover, no underline ───────────────────────────
 .masthead a,
-.greedy-nav a,
-.greedy-nav__toggle {
+.greedy-nav a {
   text-decoration: none;
 
   &:hover,
-  &:active,
-  &:visited {
+  &:active {
+    color: $link-red-light !important;
     text-decoration: none;
+  }
+}
+
+html[data-theme="dark"] {
+  .masthead a,
+  .greedy-nav a {
+    &:hover,
+    &:active {
+      color: $link-red-dark !important;
+      text-decoration: none;
+    }
   }
 }
