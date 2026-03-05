@@ -1,16 +1,53 @@
 // Custom styles for yildirimalper.github.io
 
-// Burgundy link colour, no underline, across all page content (single + archive layouts)
-article.page a:not(.btn) {
-  color: #7B1D1D;
+// ── Link colour and style ───────────────────────────────────────────────────
+// Targets both single-layout (article.page) and archive-layout (.archive) pages.
+// Excludes buttons (.btn) and navigation.
+
+$link-red-light : #C0392B;   // readable on white
+$link-red-dark  : #E8574A;   // readable on dark (#474747) background
+
+article.page a:not(.btn),
+.archive a:not(.btn) {
+  color: $link-red-light;
   text-decoration: none;
 
   &:hover {
-    color: #5a1515;
+    color: darken($link-red-light, 8%);
     text-decoration: none;
   }
 
   &:visited {
-    color: #7B1D1D;
+    color: $link-red-light;
+  }
+}
+
+html[data-theme="dark"] {
+  article.page a:not(.btn),
+  .archive a:not(.btn) {
+    color: $link-red-dark;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($link-red-dark, 8%);
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $link-red-dark;
+    }
+  }
+}
+
+// ── Navigation links — remove underline, keep theme colour ──────────────────
+.masthead a,
+.greedy-nav a,
+.greedy-nav__toggle {
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:visited {
+    text-decoration: none;
   }
 }

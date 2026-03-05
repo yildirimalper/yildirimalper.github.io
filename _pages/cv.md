@@ -13,8 +13,6 @@ redirect_from:
 
 ## Education
 
-PhD in Finance, Swiss Finance Institute – USI Lugano
-
-M.Sc. in Economics, Rheinische Friedrich-Wilhelms-Universität Bonn, 2024
-
+PhD in Finance, Swiss Finance Institute – USI Lugano<br>
+M.Sc. in Economics, Rheinische Friedrich-Wilhelms-Universität Bonn, 2024<br>
 B.A. in Economics & Sociology (Double Majors), Koç University, 2022
