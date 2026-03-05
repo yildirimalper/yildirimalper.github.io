@@ -1,12 +1,11 @@
 ---
 permalink: /
+title: "Welcome!"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-# Welcome!
 
 I am an incoming PhD student in Finance at the [Swiss Finance Institute – Università della Svizzera italiana (USI Lugano)](https://sfi.usi.ch), starting Fall 2026.
 
