@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/assets/Yildirim_CV.pdf" target="_blank" rel="noopener noreferrer"><strong>Curriculum Vitae</strong></a>
+<a href="/files/Yildirim_CV.pdf" target="_blank" rel="noopener noreferrer"><strong>Curriculum Vitae</strong></a>
 
 ## Education
 
